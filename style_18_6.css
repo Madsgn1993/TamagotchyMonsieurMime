@@ -1,0 +1,270 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Pokemon Classic";
+  color: #f4bec4;
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: #162446;
+  height: 84%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  line-height: 50px;
+  left: 29%;
+  height: 100px;
+  padding: 10px;
+  color: #32436b;
+  background-color: #f0b809;
+  box-shadow: 3px 5px #32436b;
+}
+main {
+  height: 100%;
+  width: 100%;
+}
+
+img {
+  height: 280px;
+  width: 280px;
+  margin: auto;
+}
+
+button {
+  height: 80px;
+  width: 90px;
+  bottom: 10px;
+  margin: 8px;
+  border: 1px solid black;
+  border-radius: 30%;
+  margin-right: 15px;
+  box-shadow: 5px 5px black;
+  font-family: "Pokemon Classic";
+  font-size: 10px;
+}
+
+button > img {
+  height: 50px;
+  width: 70px;
+}
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  position: relative;
+}
+
+/*---------------------------ID----------------------------*/
+#rond {
+  background-color: whitesmoke;
+  height: 50px;
+  width: 50px;
+  left: 48.5%;
+  top: 51px;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid black;
+  margin-top: 20px;
+}
+
+#rond_foncer {
+  background-color: rgb(66, 64, 64);
+  height: 35px;
+  width: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -16px;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid black;
+  margin-top: 20px;
+}
+
+#poke_left {
+  position: absolute;
+  left: 15px;
+  top: 30%;
+}
+
+#poke_rigth {
+  position: absolute;
+  right: 15px;
+  top: 30%;
+}
+
+#content_poke {
+  position: relative;
+  display: flex;
+  height: 100%;
+  max-width: 100%;
+  justify-items: center;
+}
+
+#poke_sleep {
+  z-index: 3000;
+  height: 100%;
+  width: 52%;
+  display: none;
+}
+
+#douche {
+  z-index: 3000;
+  height: 80%;
+  width: 52%;
+  display: none;
+}
+
+#note {
+  z-index: 3022;
+  height: 98%;
+  width: 52%;
+  left: 50%;
+  display: none;
+  position: absolute;
+}
+
+#son_windows {
+  height: 50px;
+  width: 150px;
+}
+
+#content_red {
+  background-color: #f51c2d;
+  height: 270px;
+  width: 295px;
+  top: 92px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  border-radius: 78%;
+  border: 3px solid black;
+  box-shadow: 3px 5px black;
+}
+
+#raisin {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  top: 0;
+  left: 50%;
+  z-index: 99;
+  display: none;
+  transform: translateX(-50%);
+  animation: LeFaireTomberMotherFucker;
+}
+#red_foncer {
+  background-color: #ad1421;
+  border: 3px solid black;
+  border-radius: 43%;
+  height: 206px;
+  width: 236px;
+  top: 30px;
+  left: 10%;
+  position: absolute;
+}
+
+#monsieur_mime {
+  z-index: 2;
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 26%;
+}
+
+#content_white {
+  background-color: cornsilk;
+  height: 270px;
+  width: 295px;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  border-radius: 78%;
+  border: 3px solid black;
+}
+
+#white_foncer {
+  background-color: rgb(160, 155, 134);
+  border-radius: 43%;
+  border: 5px solid black;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 206px;
+  width: 236px;
+  top: 4px;
+
+  position: absolute;
+}
+/*----------------------------FOOTER ID ----------------------*/
+#content_button {
+  bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  position: absolute;
+}
+
+#p_miamiam {
+  background-color: #ef1c25;
+  border-radius: 20px;
+  bottom: 5px;
+  position: absolute;
+  width: 178px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  left: 320px;
+  display: none;
+}
+#p_dormir {
+  background-color: #ef1c25;
+  border-radius: 20px;
+  z-index: 5000000;
+  bottom: 5px;
+  position: absolute;
+  width: 178px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+}
+
+#p_douche {
+  border-radius: 20px;
+  top: 50px;
+  position: absolute;
+  width: 90px;
+  height: 80px;
+  text-align: center;
+  line-height: 100px;
+  right: 320px;
+  display: none;
+}
+#note {
+  height: 80px;
+  width: 80px;
+}
+
+/*---------------------CLASSE-------------------*/
+
+@keyframes LeFaireTomberMotherFucker {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 180px;
+  }
+}
